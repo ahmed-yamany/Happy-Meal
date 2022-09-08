@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7338D34228CA5F430023A13D /* SiginUpCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338D34128CA5F430023A13D /* SiginUpCollectionViewCell.swift */; };
+		7358230728CA4FB80074B388 /* SigInUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358230628CA4FB80074B388 /* SigInUPViewController.swift */; };
 		736964B728C779EE0041CE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964B628C779EE0041CE6D /* AppDelegate.swift */; };
 		736964B928C779EE0041CE6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964B828C779EE0041CE6D /* SceneDelegate.swift */; };
 		736964BB28C779EE0041CE6D /* FoodEmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964BA28C779EE0041CE6D /* FoodEmojisViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7338D34128CA5F430023A13D /* SiginUpCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiginUpCollectionViewCell.swift; sourceTree = "<group>"; };
+		7358230628CA4FB80074B388 /* SigInUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInUPViewController.swift; sourceTree = "<group>"; };
 		736964B328C779EE0041CE6D /* Happy Meals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Meals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		736964B628C779EE0041CE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		736964B828C779EE0041CE6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7338D33F28CA5F130023A13D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7338D34028CA5F220023A13D /* GetStarted */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7338D34028CA5F220023A13D /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				7338D34128CA5F430023A13D /* SiginUpCollectionViewCell.swift */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
 		736964AA28C779EE0041CE6D = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				73D5063128CA02B3001433D8 /* Managers */,
+				7338D33F28CA5F130023A13D /* View */,
 				736964CB28C77D780041CE6D /* Controller */,
 				736964CA28C77B4A0041CE6D /* Resources */,
 				736964BC28C779EE0041CE6D /* Main.storyboard */,
@@ -93,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				736964BA28C779EE0041CE6D /* FoodEmojisViewController.swift */,
+				7358230628CA4FB80074B388 /* SigInUPViewController.swift */,
 			);
 			path = GetStarted;
 			sourceTree = "<group>";
@@ -176,10 +198,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7358230728CA4FB80074B388 /* SigInUPViewController.swift in Sources */,
 				736964BB28C779EE0041CE6D /* FoodEmojisViewController.swift in Sources */,
 				736964B728C779EE0041CE6D /* AppDelegate.swift in Sources */,
 				73D5063328CA0361001433D8 /* String+.swift in Sources */,
 				736964B928C779EE0041CE6D /* SceneDelegate.swift in Sources */,
+				7338D34228CA5F430023A13D /* SiginUpCollectionViewCell.swift in Sources */,
 				738AE2DA28C781350002BFEC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
