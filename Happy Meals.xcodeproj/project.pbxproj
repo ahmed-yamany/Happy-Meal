@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		736964B728C779EE0041CE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964B628C779EE0041CE6D /* AppDelegate.swift */; };
 		736964B928C779EE0041CE6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964B828C779EE0041CE6D /* SceneDelegate.swift */; };
-		736964BB28C779EE0041CE6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964BA28C779EE0041CE6D /* ViewController.swift */; };
+		736964BB28C779EE0041CE6D /* FoodEmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964BA28C779EE0041CE6D /* FoodEmojisViewController.swift */; };
 		736964BE28C779EE0041CE6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736964BC28C779EE0041CE6D /* Main.storyboard */; };
 		736964C028C779EF0041CE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736964BF28C779EF0041CE6D /* Assets.xcassets */; };
 		736964C328C779EF0041CE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736964C128C779EF0041CE6D /* LaunchScreen.storyboard */; };
+		738AE2DA28C781350002BFEC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE2D928C781350002BFEC /* Constants.swift */; };
+		73D5063328CA0361001433D8 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D5063228CA0361001433D8 /* String+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		736964B328C779EE0041CE6D /* Happy Meals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Meals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		736964B628C779EE0041CE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		736964B828C779EE0041CE6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		736964BA28C779EE0041CE6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		736964BA28C779EE0041CE6D /* FoodEmojisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodEmojisViewController.swift; sourceTree = "<group>"; };
 		736964BD28C779EE0041CE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		736964BF28C779EF0041CE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736964C228C779EF0041CE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736964C428C779EF0041CE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738AE2D928C781350002BFEC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		73D5063228CA0361001433D8 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,49 @@
 		736964B528C779EE0041CE6D /* Happy Meals */ = {
 			isa = PBXGroup;
 			children = (
-				736964B628C779EE0041CE6D /* AppDelegate.swift */,
-				736964B828C779EE0041CE6D /* SceneDelegate.swift */,
-				736964BA28C779EE0041CE6D /* ViewController.swift */,
+				73D5063128CA02B3001433D8 /* Managers */,
+				736964CB28C77D780041CE6D /* Controller */,
+				736964CA28C77B4A0041CE6D /* Resources */,
 				736964BC28C779EE0041CE6D /* Main.storyboard */,
 				736964BF28C779EF0041CE6D /* Assets.xcassets */,
 				736964C128C779EF0041CE6D /* LaunchScreen.storyboard */,
 				736964C428C779EF0041CE6D /* Info.plist */,
 			);
 			path = "Happy Meals";
+			sourceTree = "<group>";
+		};
+		736964CA28C77B4A0041CE6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				736964B628C779EE0041CE6D /* AppDelegate.swift */,
+				736964B828C779EE0041CE6D /* SceneDelegate.swift */,
+				738AE2D928C781350002BFEC /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		736964CB28C77D780041CE6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				736964CC28C77DF60041CE6D /* GetStarted */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		736964CC28C77DF60041CE6D /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				736964BA28C779EE0041CE6D /* FoodEmojisViewController.swift */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		73D5063128CA02B3001433D8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				73D5063228CA0361001433D8 /* String+.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736964BB28C779EE0041CE6D /* ViewController.swift in Sources */,
+				736964BB28C779EE0041CE6D /* FoodEmojisViewController.swift in Sources */,
 				736964B728C779EE0041CE6D /* AppDelegate.swift in Sources */,
+				73D5063328CA0361001433D8 /* String+.swift in Sources */,
 				736964B928C779EE0041CE6D /* SceneDelegate.swift in Sources */,
+				738AE2DA28C781350002BFEC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
