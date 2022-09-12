@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "lovedFood.jpg",
+      "filename" : "facebook.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "lovedFood@2x.jpg",
+      "filename" : "facebook@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "lovedFood@3x.jpg",
+      "filename" : "facebook@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

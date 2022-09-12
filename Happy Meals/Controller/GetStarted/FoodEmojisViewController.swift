@@ -48,8 +48,8 @@ class FoodEmojisViewController: UIViewController {
         return label
     }()
     
-    lazy var happyButton: UIButton = {
-       let button = UIButton()
+    lazy var happyButton: UIHappyButton = {
+       let button = UIHappyButton()
         button.backgroundColor = .systemBackground
         
         var configuration = UIButton.Configuration.plain()
@@ -57,10 +57,8 @@ class FoodEmojisViewController: UIViewController {
         configuration.baseForegroundColor = UIColor.label
         button.configuration = configuration
         
-        button.layer.cornerRadius = 20
-        button.clipsToBounds = true
         button.addTarget(self, action: #selector(self.happyButtonAction), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
+        
         return button
     }()
     
@@ -85,18 +83,13 @@ class FoodEmojisViewController: UIViewController {
             UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0.0, options:.curveEaseIn, animations: {
                 self.happyView.heightAnchor.constraint(equalToConstant: self.view.frame.height/3).isActive = true
                 self.view.layoutIfNeeded()
-            }, completion:{[self] _ in
-                let VC = UINavigationController(rootViewController: SigInUPViewController())
-                VC.modalPresentationStyle = .fullScreen
-                present(VC, animated: true, completion: nil)
-                
-            })
+            }, completion:nil)
         }
     }
     
     // MARK: - HappyButton Action
     @objc func happyButtonAction(){
-        let VC = UINavigationController(rootViewController: SigInUPViewController())
+        let VC = UINavigationController(rootViewController: AppBriefViewController())
         VC.modalPresentationStyle = .fullScreen
         present(VC, animated: true, completion: nil)
     }
@@ -138,7 +131,6 @@ class FoodEmojisViewController: UIViewController {
             happyButton.topAnchor.constraint(equalTo: happyDescription.bottomAnchor, constant: 20),
             happyButton.leadingAnchor.constraint(equalTo: happyLabel.leadingAnchor),
             happyButton.widthAnchor.constraint(equalToConstant: 160),
-            happyButton.heightAnchor.constraint(equalToConstant: 43)
             
         ]
         NSLayoutConstraint.activate(happyViewSubViewsConstraints)

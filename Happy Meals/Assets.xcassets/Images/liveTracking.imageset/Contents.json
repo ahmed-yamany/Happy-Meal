@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "liveTracking 2.jpg",
+      "filename" : "liveTracking.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "liveTracking 2@2x.jpg",
+      "filename" : "liveTracking@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "liveTracking 2@3x.jpg",
+      "filename" : "liveTracking@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

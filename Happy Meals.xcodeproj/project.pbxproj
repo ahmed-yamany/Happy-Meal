@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7338D34228CA5F430023A13D /* SiginUpCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338D34128CA5F430023A13D /* SiginUpCollectionViewCell.swift */; };
-		7358230728CA4FB80074B388 /* SigInUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358230628CA4FB80074B388 /* SigInUPViewController.swift */; };
+		730095A528CE13BF0034D8BC /* leftSwipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730095A428CE13BF0034D8BC /* leftSwipes.swift */; };
+		730095A728CEAF250034D8BC /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730095A628CEAF250034D8BC /* UIViewController+.swift */; };
+		730095A928CEB3080034D8BC /* UIHappyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730095A828CEB3080034D8BC /* UIHappyLabel.swift */; };
+		730095AB28CEB4440034D8BC /* UIHappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730095AA28CEB4440034D8BC /* UIHappyViewController.swift */; };
+		730095AD28CEB9390034D8BC /* UIHappyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730095AC28CEB9390034D8BC /* UIHappyTextField.swift */; };
+		7336437828CB9B5100546B0F /* SiginUPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7336437728CB9B5100546B0F /* SiginUPModel.swift */; };
+		7338D34228CA5F430023A13D /* AppBriefCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338D34128CA5F430023A13D /* AppBriefCollectionViewCell.swift */; };
+		733EF21328CAA47700952F91 /* UIHappyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EF21228CAA47700952F91 /* UIHappyButton.swift */; };
+		7358230728CA4FB80074B388 /* AppBriefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358230628CA4FB80074B388 /* AppBriefViewController.swift */; };
 		736964B728C779EE0041CE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964B628C779EE0041CE6D /* AppDelegate.swift */; };
 		736964B928C779EE0041CE6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964B828C779EE0041CE6D /* SceneDelegate.swift */; };
 		736964BB28C779EE0041CE6D /* FoodEmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736964BA28C779EE0041CE6D /* FoodEmojisViewController.swift */; };
 		736964BE28C779EE0041CE6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736964BC28C779EE0041CE6D /* Main.storyboard */; };
 		736964C028C779EF0041CE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736964BF28C779EF0041CE6D /* Assets.xcassets */; };
 		736964C328C779EF0041CE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736964C128C779EF0041CE6D /* LaunchScreen.storyboard */; };
+		736F231E28CC891400079077 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F231D28CC891400079077 /* LoginViewController.swift */; };
+		736F232028CC89E800079077 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F231F28CC89E800079077 /* SignUpViewController.swift */; };
 		738AE2DA28C781350002BFEC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE2D928C781350002BFEC /* Constants.swift */; };
+		73B66BC128CCDB4B00EA0AFD /* LeftBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B66BC028CCDB4B00EA0AFD /* LeftBarButtonItem.swift */; };
 		73D5063328CA0361001433D8 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D5063228CA0361001433D8 /* String+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7338D34128CA5F430023A13D /* SiginUpCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiginUpCollectionViewCell.swift; sourceTree = "<group>"; };
-		7358230628CA4FB80074B388 /* SigInUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInUPViewController.swift; sourceTree = "<group>"; };
+		730095A428CE13BF0034D8BC /* leftSwipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leftSwipes.swift; sourceTree = "<group>"; };
+		730095A628CEAF250034D8BC /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		730095A828CEB3080034D8BC /* UIHappyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHappyLabel.swift; sourceTree = "<group>"; };
+		730095AA28CEB4440034D8BC /* UIHappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHappyViewController.swift; sourceTree = "<group>"; };
+		730095AC28CEB9390034D8BC /* UIHappyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHappyTextField.swift; sourceTree = "<group>"; };
+		7336437728CB9B5100546B0F /* SiginUPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiginUPModel.swift; sourceTree = "<group>"; };
+		7338D34128CA5F430023A13D /* AppBriefCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBriefCollectionViewCell.swift; sourceTree = "<group>"; };
+		733EF21228CAA47700952F91 /* UIHappyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHappyButton.swift; sourceTree = "<group>"; };
+		7358230628CA4FB80074B388 /* AppBriefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBriefViewController.swift; sourceTree = "<group>"; };
 		736964B328C779EE0041CE6D /* Happy Meals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Meals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		736964B628C779EE0041CE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		736964B828C779EE0041CE6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +47,10 @@
 		736964BF28C779EF0041CE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736964C228C779EF0041CE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736964C428C779EF0041CE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736F231D28CC891400079077 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		736F231F28CC89E800079077 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		738AE2D928C781350002BFEC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		73B66BC028CCDB4B00EA0AFD /* LeftBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftBarButtonItem.swift; sourceTree = "<group>"; };
 		73D5063228CA0361001433D8 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,9 +65,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7336437628CB9B2100546B0F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7336437728CB9B5100546B0F /* SiginUPModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		7338D33F28CA5F130023A13D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				73B66BBF28CCDB0C00EA0AFD /* NavController */,
+				733EF21128CAA44D00952F91 /* CustomViews */,
 				7338D34028CA5F220023A13D /* GetStarted */,
 			);
 			path = View;
@@ -56,9 +86,20 @@
 		7338D34028CA5F220023A13D /* GetStarted */ = {
 			isa = PBXGroup;
 			children = (
-				7338D34128CA5F430023A13D /* SiginUpCollectionViewCell.swift */,
+				7338D34128CA5F430023A13D /* AppBriefCollectionViewCell.swift */,
 			);
 			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		733EF21128CAA44D00952F91 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				733EF21228CAA47700952F91 /* UIHappyButton.swift */,
+				730095A828CEB3080034D8BC /* UIHappyLabel.swift */,
+				730095AA28CEB4440034D8BC /* UIHappyViewController.swift */,
+				730095AC28CEB9390034D8BC /* UIHappyTextField.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		736964AA28C779EE0041CE6D = {
@@ -82,6 +123,7 @@
 			children = (
 				73D5063128CA02B3001433D8 /* Managers */,
 				7338D33F28CA5F130023A13D /* View */,
+				7336437628CB9B2100546B0F /* ViewModel */,
 				736964CB28C77D780041CE6D /* Controller */,
 				736964CA28C77B4A0041CE6D /* Resources */,
 				736964BC28C779EE0041CE6D /* Main.storyboard */,
@@ -114,15 +156,27 @@
 			isa = PBXGroup;
 			children = (
 				736964BA28C779EE0041CE6D /* FoodEmojisViewController.swift */,
-				7358230628CA4FB80074B388 /* SigInUPViewController.swift */,
+				7358230628CA4FB80074B388 /* AppBriefViewController.swift */,
+				736F231D28CC891400079077 /* LoginViewController.swift */,
+				736F231F28CC89E800079077 /* SignUpViewController.swift */,
 			);
 			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		73B66BBF28CCDB0C00EA0AFD /* NavController */ = {
+			isa = PBXGroup;
+			children = (
+				73B66BC028CCDB4B00EA0AFD /* LeftBarButtonItem.swift */,
+				730095A428CE13BF0034D8BC /* leftSwipes.swift */,
+			);
+			path = NavController;
 			sourceTree = "<group>";
 		};
 		73D5063128CA02B3001433D8 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
 				73D5063228CA0361001433D8 /* String+.swift */,
+				730095A628CEAF250034D8BC /* UIViewController+.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -198,13 +252,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7358230728CA4FB80074B388 /* SigInUPViewController.swift in Sources */,
+				730095A728CEAF250034D8BC /* UIViewController+.swift in Sources */,
+				7358230728CA4FB80074B388 /* AppBriefViewController.swift in Sources */,
+				7336437828CB9B5100546B0F /* SiginUPModel.swift in Sources */,
 				736964BB28C779EE0041CE6D /* FoodEmojisViewController.swift in Sources */,
+				736F232028CC89E800079077 /* SignUpViewController.swift in Sources */,
+				730095AB28CEB4440034D8BC /* UIHappyViewController.swift in Sources */,
+				733EF21328CAA47700952F91 /* UIHappyButton.swift in Sources */,
 				736964B728C779EE0041CE6D /* AppDelegate.swift in Sources */,
 				73D5063328CA0361001433D8 /* String+.swift in Sources */,
 				736964B928C779EE0041CE6D /* SceneDelegate.swift in Sources */,
-				7338D34228CA5F430023A13D /* SiginUpCollectionViewCell.swift in Sources */,
+				7338D34228CA5F430023A13D /* AppBriefCollectionViewCell.swift in Sources */,
+				730095A528CE13BF0034D8BC /* leftSwipes.swift in Sources */,
+				73B66BC128CCDB4B00EA0AFD /* LeftBarButtonItem.swift in Sources */,
+				736F231E28CC891400079077 /* LoginViewController.swift in Sources */,
 				738AE2DA28C781350002BFEC /* Constants.swift in Sources */,
+				730095AD28CEB9390034D8BC /* UIHappyTextField.swift in Sources */,
+				730095A928CEB3080034D8BC /* UIHappyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
