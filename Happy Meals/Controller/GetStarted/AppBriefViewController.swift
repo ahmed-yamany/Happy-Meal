@@ -181,7 +181,7 @@ class AppBriefViewController: UIViewController {
     }
 }
 
-// MARK: - CollectionViewLayout
+// MARK: - CollectionView CompositionalLayout
 extension AppBriefViewController{
     func configureCollecctionViewLayout() -> UICollectionViewLayout{
         let layout = UICollectionViewCompositionalLayout { sectionIndex, layoutEnvironment in
